@@ -74,7 +74,7 @@ void loop() // run over and over
   Serial.print(sensor,DEC);
   Serial.print(" -> output: ");
   Serial.println(output,DEC);
-  xbeeSerial.write(output); // harry: be sure to use .write to eliminate buggy OSC data by Processing 
+  xbeeSerial.write(output); // harry: be sure to use .write to eliminate wrong data receving by Processing  
   
    // pause before taking the next reading
     delay(100); 
