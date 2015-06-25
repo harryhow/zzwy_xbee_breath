@@ -1,6 +1,9 @@
 # Arduino project using xbee, breath sensor
 ### part of implementation for ZZWY Studio's art project
 ---
+
+
+![wiring](https://lh3.googleusercontent.com/s9bRPmfwt2W5xB6RwX4zSF588TeXXShyZyM-GeASCQnE=w635-h476-no)
  
 ### Operational Notes
 1. In order to trigger Serail port ready. Sometimes you might need to plug micro usb cable if Xbee data is not transmitted. You can also open Arduino editor's Serial Monitor to check if data start to transmit.
